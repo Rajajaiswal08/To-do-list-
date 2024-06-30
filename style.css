@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-color: aqua;
+}
+#addbtn{
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+#contaner{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom:20px ;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.box{
+    width: 30%;
+     margin-bottom: 20px;
+    
+}
+textarea{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    resize: none;
+    border: none;
+}
+.TREY{
+    width: 100%;
+  
+    background-color: chocolate;
+}
+#button{
+    border: 2px solid rgb(15, 6, 6);
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
